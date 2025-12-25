@@ -11,9 +11,9 @@
 <body>
 
 <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
-  <div class="container">
+  <div class="container"side>
     <a class="navbar-brand fw-bold" href="#">
-      <img src="image/Logo (10).png" alt="">
+      <img src="image/Logo (10).png" alt="#">
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -53,8 +53,8 @@
         <a href="#" class="btn btn-primary px-4 py-2 mt-2">Get in Touch</a>
       </div>
 
-      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0 text-center">
-        <img src="image/Group 11 1.png" class="hero-img img-fluid" alt="Profile">
+      <div class="order-md-2 mb-4 mb-md-0 text-center">
+        <img src="image/Group 11 1.png " class="hero-img img-fluid" alt="Profile">
       </div>
 
     </div>
@@ -63,9 +63,9 @@
 <section class="expertise">
     <div class="container">
 
-        <p class="small-heading">My Skills</p>
-        <h2 class="main-heading">My Expertise</h2>
-
+        <p class="small-heading fw-bold">My Skills</p></div>
+        <h2 class="main-heading space-between">My Expertise</h2>
+    </div>
         <div class="expertise-cards">
 
             <div class="card active">
@@ -109,7 +109,253 @@
 
     </div>
 </section>
+<section class="about-section">
+  <div class="container">
+
+<div class="image-box">
+    <div class="paint-bg"></div>
+    <img src="image/About Me (1).png" alt="Profile">
+</div>
+    <div class="about-content">
+      <span class="small-title">About</span>
+      <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius
+        faucibus massa sollicitudin amet augue. Nibh metus a semper purus
+        mauris duis. Lorem eu neque, tristique quis duis.
+      </p>
+      <p>
+        Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur
+        eget commodo vitae. Amet pellentesque sit pulvinar lorem mi.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<h2 class="projects">My Projects</h2>
+
+<!-- Projects -->
+<section class="projects">
+    <div class="card">
+        <img src="image/01cb4a70-b2f3-41d8-9fc8-986532460539.jpg">
+        <h3>Ahuse</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <a href="#">View in Dribbble →</a>
+    </div>
+
+    <div class="card">
+        <img src="image/ad420091-de94-4ad1-9406-ae9ea88bc380.jpg" alt="">
+        <h3>App Dashboard</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <a href="#">View in Dribbble →</a>
+    </div>
+
+    <div class="card">
+        <img src="image/b9d2a3c4-87f2-493d-83b3-ae9175459350.jpg">
+        <h3>Easy Rent</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <a href="#">View in Dribbble →</a>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+    <h2>Customer testimonials</h2>
+
+    <div class="testimonial-box">
+        <div class="testimonial">
+            ⭐⭐⭐⭐⭐
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="user">
+                <img src="image/Avatar Image.png">
+                <div>
+                    <h4>Darrell Steward</h4>
+                    <span>Starbucks</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            ⭐⭐⭐⭐⭐
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="user">
+                <img src="image/Avatar Image (2).png">
+                <div>
+                    <h4>Kristin Watson</h4>
+                    <span>Louis Vuitton</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            ⭐⭐⭐⭐⭐
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="user">
+                <img src="image/Avatar Image (3).png">
+                <div>
+                    <h4>Kathryn Murphy</h4>
+                    <span>McDonald's</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Inter',sans-serif;color:#0f172a;background:#ffffff}
+
+    /* ===== CONTACT SECTION ===== */
+    .contact-wrap{max-width:860px;margin:auto;padding:80px 20px}
+
+    .contact-top{text-align:center;margin-bottom:48px}
+    .contact-top span{font-size:13px;color:#64748b;display:block;margin-bottom:6px}
+    .contact-top h1{font-size:36px;font-weight:700;margin-bottom:10px}
+    .contact-top p{font-size:14px;color:#64748b}
+
+    form{width:100%}
+
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+
+    label{font-size:13px;font-weight:500;color:#0f172a;margin-bottom:6px;display:block}
+
+    input,select,textarea{
+      width:100%;
+      padding:14px 14px;
+      border:1.5px solid #c7bdfb;
+      border-radius:6px;
+      font-size:14px;
+      outline:none;
+      background:#fff
+    }
+
+    textarea{min-height:150px;resize:none}
+
+    .full{grid-column:1/-1}
+
+    .terms{display:flex;align-items:center;gap:8px;margin-top:18px;font-size:13px;color:#475569}
+
+    .submit{text-align:center;margin-top:34px}
+    .submit button{
+      background:#6d5dfc;
+      color:#fff;
+      border:none;
+      padding:14px 44px;
+      border-radius:6px;
+      font-size:14px;
+      font-weight:600;
+      cursor:pointer
+    }
+
+    /* ===== FOOTER ===== */
+    footer{background:#f2f9ff;margin-top:90px}
+    .footer-wrap{max-width:1100px;margin:auto;padding:40px 20px}
+
+    .footer-top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px}
+
+    .logo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:15px}
+    .logo img{width:26px;height:26px}
+
+    .footer-nav{display:flex;gap:26px;font-size:14px}
+    .footer-nav a{text-decoration:none;color:#0f172a}
+
+    .social{display:flex;gap:14px;font-size:16px}
+
+    .footer-bottom{border-top:1px solid #e2e8f0;margin-top:26px;padding-top:18px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:#64748b}
+
+    .footer-bottom a{text-decoration:none;color:#64748b;margin-left:10px}
+
+    /* ===== RESPONSIVE ===== */
+    @media(max-width:768px){
+      .form-grid{grid-template-columns:1fr}
+      .contact-top h1{font-size:28px}
+      .footer-top{flex-direction:column;align-items:flex-start}
+    }
+  </style></head>
+<body>  <!-- CONTACT -->  <section class="contact-wrap">
+    <div class="contact-top">
+      <span>Get In Touch</span>
+      <h1>Contact me</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div><form>
+  <div class="form-grid">
+    <div>
+      <label>First name</label>
+      <input type="text">
+    </div>
+    <div>
+      <label>Last name</label>
+      <input type="text">
+    </div>
+    <div>
+      <label>Email</label>
+      <input type="email">
+    </div>
+    <div>
+      <label>Phone number</label>
+      <input type="tel">
+    </div>
+    <div class="full">
+      <label>Choose a topic</label>
+      <select>
+        <option>Select one...</option>
+        <option>Support</option>
+        <option>Business</option>
+      </select>
+    </div>
+    <div class="full">
+      <label>Message</label>
+      <textarea placeholder="Type your message..."></textarea>
+    </div>
+  </div>
+
+  <div class="terms">
+    <input type="checkbox">
+    <span>I accept the terms</span>
+  </div>
+
+  <div class="submit">
+    <button>Submit</button>
+  </div>
+</form>
+
+  </section>  <!-- FOOTER -->  <footer>
+    <div class="footer-wrap">
+      <div class="footer-top">
+        <div class="logo">
+          
+        </div> <img src="image/Logo (10).png" alt=""><div class="footer-nav">
+      <a href="#">Home</a>
+      <a href="#">Portfolio</a>
+      <a href="#">About me</a>
+      <a href="#">Contact</a>
+      <a href="#">Testimonials</a>
+      <a href="#">Portfolio</a>
+    </div>
+
+    <div class="social">
+      <span><img src="image/Vector (6).png" alt=""></span><span><img src="image/Vector (5).png" alt=""></span><span><img src="image/Vector (4).png" alt=""></span><span><img src="image/Vector (7).png" alt=""></span>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div>Made with ❤️ by Airdokan</div>
+    <div>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Cookies Settings</a>
+    </div>
+  </div>
+</div>
+
+  </footer>
+  
+
 
 <script src="bootstrap.js"></script>
-</body>
+  </body>
 </html>
